@@ -34,6 +34,6 @@ style: """
   font-size: 14px
   font-family: Fira Code
   top: 5px
-  right: 450px
-  color: #a3be8c
+  right: 320px
+  color: #EBCB8B
 """

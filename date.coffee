@@ -21,6 +21,6 @@ style: """
   color: #a3be8c
   font-size: 14px
   font-family: Fira Code
-  right: 200px
+  right: 150px
   top: 5px
 """

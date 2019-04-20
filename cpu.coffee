@@ -18,7 +18,7 @@ update: (output, el) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #a3be8c
+  color: #88c0d0
   font-family: Fira Code
   font-size: 14px
   left: 50px

@@ -13,10 +13,10 @@ update: (output, el) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #a3be8c
+  color: #EBCB8B
   font-size: 14px
   font-family: Fira Code
-  left: 350px
+  left: 250px
   top: 5px
   .wifi
     font: 14px FontAwesome
