@@ -1,10 +1,9 @@
-command: "date +\"%a %d %b\""
+command: "sh ./nerdbar.widget/scripts/date.sh"
 
 refreshFrequency: 10000
 
 render: (output) ->
   """
-  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
   <div class="cal"
     <span></span>
     <span class="icon"></span>
@@ -19,8 +18,9 @@ update: (output, el) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #d5c4a1
-  font: 10px Input
-  right: 70px
-  top: 6px
+  color: #a3be8c
+  font-size: 14px
+  font-family: Fira Code
+  right: 200px
+  top: 5px
 """

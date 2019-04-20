@@ -1,10 +1,9 @@
-command: "pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f1 -d';'"
+command: "sh ./nerdbar.widget/scripts/battery.sh"
 
 refreshFrequency: 15000 # ms
 
 render: (output) ->
   """
-  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
   <div class="battery"
     <span></span>
     <span class="icon"></span>
@@ -32,8 +31,9 @@ icon: (output) =>
 
 style: """
   -webkit-font-smoothing: antialiased
-  font: 9px Input
-  top: 7px
-  right: 160px
-  color: #d5c4a1
+  font-size: 14px
+  font-family: Fira Code
+  top: 5px
+  right: 450px
+  color: #a3be8c
 """

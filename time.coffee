@@ -1,10 +1,10 @@
-command: "date +\"%H:%M\""
+command: "sh ./nerdbar.widget/scripts/time.sh"
 
-refreshFrequency: 10000 # ms
+
+refreshFrequency: 50000 # ms
 
 render: (output) ->
   """
-  <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
   <div class="time"
     <span></span>
     <span class="icon"></span>
@@ -19,8 +19,9 @@ update: (output, el) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #d5c4a1
-  font: 10px Input
-  right: 10px
-  top: 6px
+  color: #88c0d0
+  font-size: 14px 
+  font-family: Fira Code
+  right: 50px
+  top: 5px
 """
