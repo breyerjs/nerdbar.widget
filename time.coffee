@@ -1,7 +1,7 @@
 command: "sh ./nerdbar.widget/scripts/time.sh"
 
 
-refreshFrequency: 50000 # ms
+refreshFrequency: 20000 # ms
 
 render: (output) ->
   """
